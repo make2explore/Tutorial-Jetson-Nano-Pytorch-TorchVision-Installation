@@ -4,14 +4,11 @@ Tutorial - How to install Pytorch and TorchVision on Jetson Nano
   
 <img src="/Images/m2e-pytorch.png" height="250" >
   
-**OpenCV** (Open Source Computer Vision Library) is an open-source software library used for **computer vision**, **machine learning**, and **image processing**. It provides a wide range of tools and functionalities that allow developers to process, analyze, and manipulate images and videos, making it a popular choice for tasks like object detection, image recognition, and facial recognition. 
-  
-The **NVIDIA Jetson Nano** is a small, powerful computing platform designed for edge AI applications, such as robotics, IoT devices, and computer vision projects. Despite its compact size, it includes a GPU based on NVIDIA's Maxwell architecture, which supports CUDA, making it capable of performing GPU-accelerated computing tasks.  
-  
-A **CUDA accelerator** refers to the use of NVIDIA GPUs (Graphics Processing Units) as specialized hardware accelerators to perform computational tasks faster than a traditional CPU (Central Processing Unit). The term "accelerator" in this context highlights the GPU's role in speeding up specific types of computations, particularly those that can be parallelized.  
-  
-*Why would you install OpenCV on the Jetson Nano, when your operating system has already a version pre-installed?* 
-==> The main reason is that the **shipped version has no CUDA support**. And after all, wasn't the CUDA accelerator the main reason why we bought the Jetson Nano in the first place.  
+**PyTorch** is an open-source deep learning framework widely used for building and training neural networks. It provides a flexible platform for developing AI applications, offering dynamic computation graphs, GPU acceleration, and an intuitive Pythonic interface. Researchers and developers prefer PyTorch because it allows rapid prototyping, debugging, and deployment of complex machine learning models with ease, making it one of the most popular frameworks in both academia and industry.  
+
+**TorchVision** is a companion library to PyTorch that focuses on computer vision tasks. It includes utilities for handling image and video datasets, performing data transformations, and accessing pre-trained models for tasks like classification, detection, and segmentation. With TorchVision, developers can streamline their workflow by reusing existing vision models and datasets, which speeds up experimentation and reduces the need for building everything from scratch.  
+
+On the Jetson Nano, combining PyTorch with TorchVision is especially beneficial because it enables efficient edge AI development. The Nano is a compact, low-power GPU device designed for real-time AI inference. With PyTorch and TorchVision installed, developers can run state-of-the-art vision models locally on the device without depending on cloud servers. This setup allows applications such as object detection, surveillance, robotics, and assistive technologies to work in real time, directly on embedded hardware, making the Jetson Nano a powerful and affordable platform for AI at the edge.  
   
 
 This tutorial is about How to Install OpenCV on Jetson Nano with CUDA support. We've discussed..  
