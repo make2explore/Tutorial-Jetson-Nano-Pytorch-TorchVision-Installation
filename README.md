@@ -11,23 +11,24 @@ Tutorial - How to install Pytorch and TorchVision on Jetson Nano
 On the Jetson Nano, combining PyTorch with TorchVision is especially beneficial because it enables efficient edge AI development. The Nano is a compact, low-power GPU device designed for real-time AI inference. With PyTorch and TorchVision installed, developers can run state-of-the-art vision models locally on the device without depending on cloud servers. This setup allows applications such as object detection, surveillance, robotics, and assistive technologies to work in real time, directly on embedded hardware, making the Jetson Nano a powerful and affordable platform for AI at the edge.  
   
 
-This tutorial is about How to Install OpenCV on Jetson Nano with CUDA support. We've discussed..  
-- **What is NVIDIA CUDA ?** - Basic Introduction. 
-- **What is OpenCV ?** - Basic Information 
-- **How to increase SWAP memory of Jetson Nano** - Demo
-- **Demo of How to Install OpenCV on Jetson Nano with CUDA support** 
+This tutorial is about How to Install Pytorch and TorchVision on Jetson Nano. We've discussed..  
+- **What is Pytorch ?** - Basic Introduction. 
+- **What is TorchVision ?** - Basic Information 
+- **How to Install NoMachine RDS on Jetson Nano** - Demo
+- **Demo of How to Install Pytorch and TorchVision on Jetson Nano** 
 
 
 ------------------------------------------------------------------------------------------------------
 
 📕 **YouTube Video Links**  
 
-▶️ [Tutorial] How to Install Pytorch and Torchvision  on Jetson Nano - 🔗 https://youtu.be/o8QuRm-is_I    
+▶️ [Tutorial] How to Install Pytorch and Torchvision on Jetson Nano - 🔗 https://youtu.be/o8QuRm-is_I    
 
 -------------------------------------------------------------------------------------------------------
 📒 **Important Links**  
  
 🌐 PyTorch for Jetson - 🔗https://forums.developer.nvidia.com/t/pytorch-for-jetson/72048  
+▶️ [Tutorial] Installation of NoMachine on NVIDIA Jetson Nano 🔗 https://youtu.be/vBMHS6FXBM4  
 📗 Jetpack 4.6.1 🔗 https://developer.nvidia.com/embedded/jetpack-sdk-461  
 ▶️ [Tutorial] Getting Started With Jetson Nano 🔗 https://youtu.be/IVw1cyanRi0  
 
